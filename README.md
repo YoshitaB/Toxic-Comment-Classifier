@@ -27,7 +27,7 @@ There are 159,571 observations in the training dataset and 153,164 observations 
 
 Since all of our data are text comments, we wrote our own `tokenize()` function, removing punctuations and special characters, stemming and/or lemmatizing the comments, and filtering out comments with length below 3. After benchmarking between different vectorizers (TFIDFVectorizer and CountVectorizer), we chose TFIDFVectorizer, which provides us with better performance.
 
-![alt text](https://user-images.githubusercontent.com/40482785/49547039-90079900-f896-11e8-8e99-f83e327757ac.png) ![alt text](https://github.com/dunnus/Toxic-Comments-Classification/blob/main/image/label_frequency.png)
+![alt text](https://github.com/YoshitaB/Toxic-Comment-Classifier/blob/main/image/imbalance.png) ![alt text](https://github.com/dunnus/Toxic-Comments-Classification/blob/main/image/label_frequency.png)
 
 The major concern of the data is that most of the comments are clean (i.e., non-toxic). There are only a few observations in the training data for Labels like `threat`. This indicates that we need to deal with imbalanced classes later on and indeed, we use different methods, such as resampling, choosing appropriate evaluation metrics, and choosing robust models to address this problem.
 
