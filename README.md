@@ -75,6 +75,6 @@ In terms of evaluation metric, Linear SVC performs the best. But we believe afte
 Therefore, we choose Linear SVC as our optimal model.
 
 ### Top and Bottom Features
-![alt text](https://github.com/dunnus/Toxic-Comments-Classification/blob/main/image/topbottomwords.png)
+![alt text](https://github.com/YoshitaB/Toxic-Comment-Classifier/blob/main/image/topbottomwords.png)
 
 
